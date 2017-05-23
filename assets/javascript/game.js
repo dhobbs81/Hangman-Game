@@ -14,3 +14,15 @@
  */
 var helloWorldHeading = document.querySelector('h1');
 helloWorldHeading.textContent = 'Hello world!';
+
+escapes('assets/images/bbs.ans', function () {
+          document.body.appendChild(this);
+      });
+
+/*
+// https://sixteencolors.net/pack/blocktronics_there_will_be_blocks/Luciano-BBS_Doc.ans
+escapes('https://sixteencolors.net/pack/blocktronics_there_will_be_blocks/Luciano-BBS_Doc.ans',
+	function () {
+          document.body.appendChild(this);
+      });
+     */
